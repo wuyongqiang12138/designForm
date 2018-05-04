@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+.left{float:left;width:220px;}
+.logo{text-align:center;}
+.logo img{margin:20px;}
+.layui-icon{font-size:20px;vertical-align:-2px;}
+.index_top{background:#f3f3f4;height:60px;line-height:60px;width:100%;color:#999c9e;border-bottom:1px solid #e7eaec !important;}
+.logout{font-size:14px;float:right;margin-right:40px;cursor:pointer;}
+.system_title{font-size:24px;padding-left:20px;font-weight:bold;color:#ea6000;}
+.footer{border-top:1px solid #e7eaec !important;height:40px;line-height:40px;text-align:center;width:100%;color:#777;}
+#index_container{width: calc(100% - 200px);margin-left:200px;}
+#content_main{height: calc(100% - 60px);overflow: hidden;width:100%;}
+.container{padding:20px;}
+.search_title{padding-left:5px;}
+.search_img{position:absolute;right:10px;cursor:pointer;top:8px;color:#777;}
+.search_detail{position:absolute;left:10px;cursor:pointer;top:4px;font-size:24px;}
+.backlog_table tr td{cursor:pointer;}
+.backlog_img{color:#007DDB;}
+/*.top_btn{position:fixed;}
+.content{margin-top:40px;}*/
+
+.layui-table tbody tr:hover{
+    background-color: transparent;
+}
+.content .layui-table .layui-input{height:30px;}
+.content .layui-table td{padding:5px 15px;}
+.layui-table .list_title{background:#E2E2E2;font-size:16px;text-align:center;font-weight:600;}
+.title_p{border-left:4px solid #ea6000;padding-left:10px;margin:20px 0 10px;}
+.role{color:#007DDB;}
+.txt{border:0;width:100%;color:#777;}
+
+.layui-table .create_table tbody tr:hover{
+    background-color: #E2E2E2;
+}
+.table_list{color:#ff0000;}
+.table_list .layui-icon{margin-right:5px;}
+.tail,.back{color:#007DDB;}
+.red{color:#ff0000;font-size:16px;vertical-align:-3px;padding-left:5px;}
+.choice_tr{display:none;}
+.create_type{display:none;width:120px;border:1px solid #ddd;box-shadow:0 0 10px #ccc;border-radius:3px;position:absolute;z-index:10;top:35px}
+.create_type li{height:30px;padding-left:10px;line-height:30px;color:#4183C4;cursor:pointer;background:#fff;}
+.create_type li:hover{color:#235;}
+.display_container,.display_container1{display:none;position:absolute;top:0;left:0;z-index:10;background:rgba(255,255,255,0.8);width:100%;height:100%;}
+.display_content,.display_content1{color:#717171;padding:20px;width:400px;height:300px;background:#fff;position:absolute;margin:100px 0 0 -300px;left:50%;box-shadow:0 0 10px #ccc;}
+.display_container2{display:none;position:absolute;top:0;left:0;z-index:10;background:rgba(255,255,255,0.8);width:100%;height:100%;}
+.display_content2{overflow-y:auto;color:#717171;padding:20px;width:400px;height:300px;background:#fff;position:absolute;margin:100px 0 0 -200px;left:50%;box-shadow:0 0 10px #ccc;}
+.top{height:50px;width:100%;font-size:20px;}
+.middle{height:200px;width:96%;border:1px solid #ccc;position:relative;padding:0 10px;}
+.foot{text-align:right;height:50px;line-height:50px;}
+.search_user{height:30px;width:99%;border:1px solid #ccc;margin-top:10px;padding-left:5px;}
+.tab_list{float:left;}
+.tab_list li{height:40px;width:80px;line-height:40px;text-align:center;border-bottom:1px solid #ccc;cursor:pointer;}
+.tab_list .active{background:#eee;}
+.advanced_p{font-size:16px;border-bottom:1px solid #ccc;margin:10px 0 5px;}
+.top_div{border-bottom:1px solid #ccc;height:40px;line-height:40px;}
+.txt{border:1px solid #ccc;height:25px;padding-left:5px;width:90%;}
+.add_menu{color:darkgreen;cursor:pointer;}
+.delete_menu{color:red;cursor:pointer;}
+.last:hover{background:#c8e0c8;}
+.menu_div{border:1px solid #ccc;border-radius:5px;padding:10px;margin-top:10px;}
+.menu_div .layui-row{padding:2px;}
+.user_list{border:1px solid #ccc;border-radius:5px;padding:10px;margin-top:20px;}
+.role_list{padding:10px;}
+.layui-anim.layui-icon{vertical-align: -8px;}
+.display_container3{display:none;position:absolute;top:0;left:0;z-index:10;background:rgba(255,255,255,0.8);width:100%;height:100%;}
+.display_content3{overflow-y:auto;color:#717171;padding:20px;width:750px;height:400px;background:#fff;position:absolute;margin:100px 0 0 -375px;left:50%;box-shadow:0 0 10px #ccc;}
+.middle1{height:250px;width:96%;border:1px solid #ccc;position:relative;padding:0 10px;}
+.middle2{height:300px;width:96%;border:1px solid #ccc;position:relative;padding:0 10px;}
+.display_container4{display:none;position:absolute;top:0;left:0;z-index:10;background:rgba(255,255,255,0.8);width:100%;height:100%;}
+.display_content4{overflow-y:auto;color:#717171;padding:20px;width:600px;height:400px;background:#fff;position:absolute;margin:100px 0 0 -300px;left:50%;box-shadow:0 0 10px #ccc;}
+.layui-colla-content{padding:0;}

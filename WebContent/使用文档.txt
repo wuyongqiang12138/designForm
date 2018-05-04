@@ -1,0 +1,7 @@
+1.将项目发布到tomcat后，直接访问 localhost:8080/formDesign/bootstrap/formDesign.jsp
+
+2.表单设计好之后，点击下载--保存表单文件(.html)到本地
+
+3.将保存的文件放入项目中，并在lay.jsp中指定位置包含表单文件
+
+4.访问lay.jsp即可看到渲染之后的表单文件
